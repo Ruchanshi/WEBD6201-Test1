@@ -9,19 +9,20 @@
 // mean? -> anonymous self-executing function
 
 let app;
-let h3;
+
 (function(app){
 
     // Declare Function Variables here...
     console.log("%cDeclaring Variables", "color: red;")
-  
+   
     /**
      * Variable initialization in this function
      *
      */
+    let largeButton;
     function Start()
     {
-
+       
         // replacing large button to learn more
         document.getElementById("largeButton").innerHTML="Learn More";
         // replacing the paragraph lines
@@ -38,6 +39,11 @@ let h3;
      */
     function Main()
     {
+            //event 
+            document.getElementById("largeButton").addEventListener("click", "Hide Details");
+            
+        
+      
 
     }
 

@@ -24,9 +24,10 @@ let h3;
 
         // replacing large button to learn more
         document.getElementById("largeButton").innerHTML="Learn More";
-
+        // replacing the paragraph lines
         document.getElementById("firstParagraph").innerHTML="JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called Prototype that can be used to extend object properties and methods."
-        
+        // hiding the paragraph
+        document.getElementById("firstParagraph").style.display="none";
         
         Main();
     }
